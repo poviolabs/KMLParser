@@ -1,5 +1,0 @@
-module KMLParser {
-  umbrella header "KMLParser/KMLParser.h"
-  export *
-}
-
