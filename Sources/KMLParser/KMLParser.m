@@ -8,7 +8,7 @@
       Abstract KMLElement type.  Handles storing an element identifier (id="...") as well as a buffer for accumulating character data parsed from the xml. In general, subclasses should have beginElement and endElement classes for keeping track of parsing state.  The parser will call beginElement when an interesting element is encountered, then all character data found in the element will be stored into accum, and then when endElement is called accum will be parsed according to the conventions for that particular element type in order to save the data from the element.  Finally, clearString will be called to reset the character data accumulator.
  */
 
-#import "KMLParser.h"
+#import <KMLParser/KMLParser.h>
 
 @interface KMLElement : NSObject {
     NSString *identifier;
