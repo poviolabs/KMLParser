@@ -13,10 +13,7 @@ let package = Package(
     .library(name: "KMLParser", targets: ["KMLParser"])
   ],
   targets: [
-    .target(
-      name: "KMLParser",
-      path: "Sources"
-    )
+    .target(name: "KMLParser")
   ],
   swiftLanguageVersions: [.v5]
 )
