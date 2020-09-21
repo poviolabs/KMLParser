@@ -1,4 +1,4 @@
-module ClusterKit {
+module KMLParser {
   umbrella header "KMLParser/KMLParser.h"
   export *
 }
