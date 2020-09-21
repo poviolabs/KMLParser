@@ -1,0 +1,5 @@
+module ClusterKit {
+  umbrella header "KMLParser/KMLParser.h"
+  export *
+}
+
